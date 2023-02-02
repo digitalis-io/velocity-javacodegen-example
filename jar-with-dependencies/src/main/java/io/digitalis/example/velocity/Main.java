@@ -1,5 +1,6 @@
 package io.digitalis.example.velocity;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.VelocityEngine;
@@ -10,6 +11,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -97,6 +99,10 @@ public class Main {
             writer.close();
 
             log.info("Done!! Should be a new file generated @ - "+outputFile.getAbsolutePath());
+
+            String content = FileUtils.readFileToString(outputFile, "UTF-8");
+
+            log.info("Generated File Contents:\n"+content+"\n\n");
 
 
         } catch (Throwable t) {
