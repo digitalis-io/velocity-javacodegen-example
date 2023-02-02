@@ -17,5 +17,6 @@
 
     <modules>
         <module>jar-with-dependencies</module>
+        <module>generated-code</module>
     </modules>
 </project>

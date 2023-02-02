@@ -1,0 +1,7 @@
+package io.digitalis.example.velocity;
+
+class Example {
+    public static void main(String[] args) {
+        System.out.println("${mymessage}");
+    }
+}

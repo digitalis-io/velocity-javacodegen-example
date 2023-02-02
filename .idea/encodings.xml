@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/executable-jar/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/executable-jar/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generated-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/generated-code/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jar-with-dependencies/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jar-with-dependencies/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
