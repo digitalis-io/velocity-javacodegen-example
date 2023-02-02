@@ -29,7 +29,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>Example</mainClass>
+                                    <mainClass>io.digitalis.example.velocity.Example</mainClass>
                                 </manifest>
                             </archive>
                         </configuration>
