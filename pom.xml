@@ -17,6 +17,5 @@
 
     <modules>
         <module>jar-with-dependencies</module>
-        <module>executable-jar</module>
     </modules>
 </project>
